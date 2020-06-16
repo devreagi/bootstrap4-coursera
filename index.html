@@ -19,9 +19,38 @@
   </head>
 
   <body>
+    <nav
+      aria-label="nav bar"
+      class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"
+    >
+      <nav aria-label="contenedor del nav bar" class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Restaurant Con Fusion</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+
     <header class="jumbotron">
       <div class="container">
-        <div class="row row-header" >
+        <div class="row row-header">
           <div class="col-12 col-sm-6">
             <h1>Ristorante con Fusion</h1>
             <p>
@@ -89,7 +118,7 @@
             <h5>Links</h5>
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="./aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
