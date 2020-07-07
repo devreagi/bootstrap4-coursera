@@ -146,118 +146,156 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="" id="reserva">
+            <form>
               <div class="form-group row">
-                <label for="guests" class="col-12 col-md-2 col-form-label"
-                  >Number of Guests</label
-                >
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest1"
-                    id="guest1 "
-                  />
-                  <label class="custom-control-label" for="guest1">1</label>
+                <div class="col-12 col-md-2">
+                  <label for="guests" class="col-form-label"
+                    >Number of Guests</label
+                  >
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest2"
-                    id="guest2"
-                  />
-                  <label class="custom-control-label" for="guest2">2</label>
-                </div>
-
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest3"
-                    id="guest3"
-                  />
-                  <label class="custom-control-label" for="guest3">3</label>
-                </div>
-
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest4"
-                    id="guest4"
-                  />
-                  <label class="custom-control-label" for="guest4">4</label>
-                </div>
-
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest5"
-                    id="guest5"
-                  />
-                  <label class="custom-control-label" for="guest5">5</label>
-                </div>
-
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input
-                    class="custom-control-input"
-                    type="radio"
-                    name="guest6"
-                    id="guest6"
-                  />
-                  <label class="custom-control-label" for="guest6">6</label>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="section" class="col-12 col-md-2 col-form-label"
-                  >Section</label
-                >
-                <div
-                  class="btn-group btn-group-toggle"
-                  data-toggle="buttons"
-                  id="section"
-                >
-                  <label class="btn btn-success active">
+                <div class="col-12 col-md-8">
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
                     <input
+                      class="custom-control-input"
+                      required
                       type="radio"
-                      name="options"
-                      id="noSmoking"
-                      checked="checked"
-                      aria-pressed="true"
+                      name="noOfGuest"
+                      id="guest1"
+                      value="1"
                     />
-                    Non-Smoking
-                  </label>
-                  <label class="btn btn-danger">
-                    <input type="radio" name="options" id="smoking" /> Smoking
-                  </label>
+                    <label class="custom-control-label" for="guest1">1</label>
+                  </div>
+
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      required
+                      type="radio"
+                      name="noOfGuest"
+                      id="guest2"
+                      value="2"
+                    />
+                    <label class="custom-control-label" for="guest2">2</label>
+                  </div>
+
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      required
+                      type="radio"
+                      name="noOfGuest"
+                      id="guest3"
+                      value="3"
+                    />
+                    <label class="custom-control-label" for="guest3">3</label>
+                  </div>
+
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      required
+                      type="radio"
+                      name="noOfGuest"
+                      id="guest4"
+                      value="4"
+                    />
+                    <label class="custom-control-label" for="guest4">4</label>
+                  </div>
+
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      required
+                      type="radio"
+                      name="noOfGuest"
+                      id="guest5"
+                      value="5"
+                    />
+                    <label class="custom-control-label" for="guest5">5</label>
+                  </div>
+
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      required
+                      type="radio"
+                      name="noOfGuest"
+                      id="guest6"
+                      value="6"
+                    />
+                    <label class="custom-control-label" for="guest6">6</label>
+                  </div>
                 </div>
               </div>
 
               <div class="form-group row">
-                <label for="telnum" class="col-12 col-md-2 col-form-label"
-                  >Date and Time</label
-                >
-                <div class="form-check form-check-inline">
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="date"
-                    id="date"
-                    placeholder="Date"
-                  />
+                <div class="col-12 col-md-2">
+                  <label for="section" class="col-form-label">Section</label>
                 </div>
-                <div class="form-check form-check-inline">
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="time"
-                    id="time "
-                    placeholder="Time"
-                  />
+
+                <div class="col-12 col-md-8">
+                  <div
+                    class="btn-group btn-group-toggle"
+                    data-toggle="buttons"
+                    id="section"
+                  >
+                    <label class="btn btn-success active">
+                      <input
+                        type="radio"
+                        name="options"
+                        id="noSmoking"
+                        checked="checked"
+                        aria-pressed="true"
+                      />
+                      Non-Smoking
+                    </label>
+                    <label class="btn btn-danger">
+                      <input type="radio" name="options" id="smoking" /> Smoking
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-12 col-md-2">
+                  <label for="dateandtime" class="col-form-label"
+                    >Date and Time</label
+                  >
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="form-row">
+                    <div class="col form-check form-check-inline">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="date"
+                        id="date"
+                        placeholder="Date"
+                      />
+                    </div>
+                    <div class="col form-check form-check-inline">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="time"
+                        id="time "
+                        placeholder="Time"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
